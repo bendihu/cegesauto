@@ -18,6 +18,8 @@
         static List<Forgalom> forgalom = new List<Forgalom>();
         static void Main(string[] args)
         {
+            Console.OutputEncoding = System.Text.Encoding.UTF8;
+            
             //1. feladat
             Beolvas();
 

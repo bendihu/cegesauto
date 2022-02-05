@@ -13,7 +13,7 @@
         public bool KiBe { get; set; }
     }
 
-    class Program
+    public class Program
     {
         static List<Forgalom> forgalom = new List<Forgalom>();
         static void Main(string[] args)
